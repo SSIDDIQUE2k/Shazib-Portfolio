@@ -15,8 +15,8 @@ const Profile = () => {
         >
           <img
             className="object-cover object-center bg-[#b9aeb6] border-2 border-white pointer-events-none rounded-full backdrop-contrast-200 backdrop-brightness-200"
-            alt="Vijay"
-            src={require("../assets/Images/hero.png")}
+            alt="Shazib"
+            src={require("../assets/Images/IMG_8945-removebg-preview.png")}
           />
         </div>
         <div className="lg:flex-grow lg:pr-4 lg:mr-14 flex flex-col md:mb-0 items-center text-center xl:scale-105">
@@ -27,7 +27,7 @@ const Profile = () => {
             data-aos-once="false"
             className="title-font md:text-3xl text-2xl mb-4 text-center font-medium text-white"
           >
-            Hello , I am <span className="text-dark-orange">Vijay Kumar</span>
+            Hello , I am <span className="text-dark-orange">Shazib Siddique</span>
           </h2>
           <div
             data-aos="zoom-in-up"
