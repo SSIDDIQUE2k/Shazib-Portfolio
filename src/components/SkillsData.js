@@ -15,11 +15,6 @@ const SkillsData = [
     image: require("../assets/Images/javascript.png"),
   },
   {
-    id: "4",
-    name: "TypeScript",
-    image: require("../assets/Images/typescript.png"),
-  },
-  {
     id: "5",
     name: "MongoDB",
     image: require("../assets/Images/mongodb.png"),
@@ -40,11 +35,6 @@ const SkillsData = [
     image: require("../assets/Images/node.png"),
   },
   {
-    id: "9",
-    name: "Redux",
-    image: require("../assets/Images/redux.png"),
-  },
-  {
     id: "10",
     name: "Next",
     image: require("../assets/Images/next.png"),
@@ -58,11 +48,6 @@ const SkillsData = [
     id: "12",
     name: "Firebase",
     image: require("../assets/Images/firebase.png"),
-  },
-  {
-    id: "13",
-    name: "Prisma",
-    image: require("../assets/Images/prisma.png"),
   },
   {
     id: "14",
