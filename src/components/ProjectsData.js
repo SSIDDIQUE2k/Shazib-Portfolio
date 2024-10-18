@@ -11,7 +11,7 @@ const ProjectsData = [
     icons: [TbBrandNextjs, BiLogoTailwindCss, BiLogoMongodb,TbBrandPrisma],
     description: "This application allows users to express their thoughts and experiences through blogs.",
     github: "https://github.com/SSIDDIQUE2k/uber-next-clone",
-    demo: "https://write-ur-blog.vercel.app",
+    demo: "https://shazib-portfolio.vercel.app/",
   },
 ];
 
