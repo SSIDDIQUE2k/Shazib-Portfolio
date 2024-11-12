@@ -15,7 +15,7 @@ const About = () => {
             data-aos-once="false"
             className="text-lg mx-auto leading-relaxed font-medium text-dark-orange text-center"
           >
-            Why hire me ?
+    
           </p>
         </div>
         <div className="mx-auto flex lg:flex-row flex-col items-center justify-center">
@@ -63,7 +63,7 @@ const About = () => {
                   offset={-100}
                   duration={500}
                 >
-                  Hire Me
+               Contact Me
                 </Link>
               </button>
               <a

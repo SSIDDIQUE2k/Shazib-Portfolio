@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import ProjectsData from "./ProjectsData";
 
@@ -22,25 +22,27 @@ const Projects = () => {
                 <h3 data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="text-2xl font-medium text-white my-2">{project.name}</h3>
                 <p data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="px-2 text-lg text-white">{project.description}</p>
                 <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="flex flex-wrap items-center gap-3 mt-3">
-                {
-                  project?.icons?.map((Icon,index)=>(
+                  {project?.icons?.map((Icon, index) => (
                     <div className="rounded-full p-2" key={index}>
-                      <Icon className="text-white text-4xl font-bold"/>
+                      <Icon className="text-white text-4xl font-bold" />
                     </div>
-                  ))
-                }
+                  ))}
                 </div>
                 <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="flex gap-7 justify-center items-center my-7 text-2xl">
-                  <div className="bg-white rounded-full p-2">
-                    <a className="text-darkblue text-xl bg-white" href={project.github} target="_blank" rel="noopener noreferrer">
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="bg-white rounded-full p-2">
-                  <a className="text-darkblue text-xl bg-white" href={project.demo} target="_blank" rel="noopener noreferrer">
-                    <FaExternalLinkAlt  className='p-[1px]'/>
-                  </a>
-                  </div>
+                  {project.github && (
+                    <div className="bg-white rounded-full p-2">
+                      <a className="text-darkblue text-xl bg-white" href={project.github} target="_blank" rel="noopener noreferrer">
+                        <FaGithub />
+                      </a>
+                    </div>
+                  )}
+                  {project.demo && (
+                    <div className="bg-white rounded-full p-2">
+                      <a className="text-darkblue text-xl bg-white" href={project.demo} target="_blank" rel="noopener noreferrer">
+                        <FaExternalLinkAlt className="p-[1px]" />
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -49,6 +51,6 @@ const Projects = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;

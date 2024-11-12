@@ -21,10 +21,6 @@ const links = [
     link: "projects",
   },
   {
-    title: "Experience",
-    link: "experience",
-  },
-  {
     title: "Contact",
     link: "contact",
   },
